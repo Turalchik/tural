@@ -1,7 +1,7 @@
 CC=g++
 CFLAGS=-c -pedantic-errors -g
 LDFLAGS=
-SOURCES=stockexchange.cpp
+SOURCES=stockexchange.cpp stock.cpp database.cpp
 OBJECTS=$(SOURCES:.cpp=.o)
 EXECUTABLE=stockexchange
 
