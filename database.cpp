@@ -234,7 +234,7 @@ void quickSortPrice(database& DB) {
                 }
             }
             while (true) {
-                if (DB.data[right].price < p.id) {
+                if (DB.data[right].price < p.price) {
                     --right;
                 }
                 else if (DB.data[right].price == p.price) {
